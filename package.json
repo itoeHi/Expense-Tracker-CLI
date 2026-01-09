@@ -1,0 +1,33 @@
+{
+  "name": "cli_expensetracker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "backend project of command-line tracking user's expense application",
+  "main": "expense-tracker.js",
+  "scripts": {
+    "start": "node expense-tracker.js"
+  },
+  "bin": {
+    "expense-tracker": "./expense-tracker.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itoeHi/Expense-Tracker-CLI.git"
+  },
+  "keywords": [
+    "Expense",
+    "CLI",
+    "Tracker",
+    "finance",
+    "Node.js"
+  ],
+  "author": "yilinDai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itoeHi/Expense-Tracker-CLI/issues"
+  },
+  "homepage": "https://github.com/itoeHi/Expense-Tracker-CLI#readme"
+}
